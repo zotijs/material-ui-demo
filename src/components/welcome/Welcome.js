@@ -1,26 +1,17 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
+import { Typography } from "@material-ui/core";
+import { Menu as MenuIcon } from "@material-ui/icons";
 
-const Welcome = () => {
+const Welcome = ({ classes, ...restProps }) => {
   return (
-    <div
-      style={{
-        paddingTop: "4px",
-        paddingBottom: "4px",
-        paddingRight: "36px",
-        paddingLeft: "36px",
-      }}
-    >
-      <Typography>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ipsum
-        purus, bibendum sit amet vulputate eget, porta semper ligula. Donec
-        bibendum vulputate erat, ac fringilla mi finibus nec. Donec ac dolor sed
-        dolor porttitor blandit vel vel purus. Fusce vel malesuada ligula. Nam
-        quis vehicula ante, eu finibus est. Proin ullamcorper fermentum orci,
-        quis finibus massa. Nunc lobortis, massa ut rutrum ultrices, metus metus
-        finibus ex, sit amet facilisis neque enim sed neque. Quisque accumsan
-        metus vel maximus consequat. Suspendisse lacinia tellus a libero
-        volutpat maximus.
+    <div className={classes.container}>
+      <Typography className={classes.typographyStyle} variant="h6">
+        This is a Material-UI demo.
+      </Typography>
+      <Typography className={classes.typographyStyle}>
+        In order to view the demo Components select an item from the pop-up menu
+        (
+        <MenuIcon />) on the left side of the App Bar.
       </Typography>
     </div>
   );

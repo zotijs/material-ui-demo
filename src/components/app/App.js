@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { NavBar } from "components/navbar/";
-import { Welcome } from "components/welcome";
+import Welcome from "components/welcome";
 import { WithStylesExample } from "components/examples";
 
 const App = ({ isDarkMode, toggleDarkMode, ...restProps }) => {
