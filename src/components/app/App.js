@@ -7,6 +7,7 @@ import {
   ChartsCard,
   ChartsBox,
   ChartsGrid,
+  RechartsGrid,
 } from "components/examples";
 
 const App = ({ isDarkMode, toggleDarkMode, ...restProps }) => {
@@ -24,6 +25,11 @@ const App = ({ isDarkMode, toggleDarkMode, ...restProps }) => {
           <Route path={"/examples/card"} exact component={ChartsCard} />
           <Route path={"/examples/flexbox"} exact component={ChartsBox} />
           <Route path={"/examples/css-grid"} exact component={ChartsGrid} />
+          <Route
+            path={"/examples/recharts-grid"}
+            exact
+            component={RechartsGrid}
+          />
         </Switch>
       </BrowserRouter>
     </>

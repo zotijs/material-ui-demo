@@ -28,7 +28,13 @@ const MenuItems = React.forwardRef(({ handleClose, ...restProps }, ref) => (
     >
       Cards in CSS-Grid
     </MenuItem>
-    <MenuItem onClick={handleClose}>(TO-DO) Using Recharts</MenuItem>
+    <MenuItem
+      component={RouterLink}
+      to="/examples/recharts-grid"
+      onClick={handleClose}
+    >
+      Using Recharts
+    </MenuItem>
     <MenuItem onClick={handleClose}>(TO-DO) Creating a DashBoard</MenuItem>
     <MenuItem onClick={handleClose}>(TO-DO) Recharts in DashBoard</MenuItem>
   </>

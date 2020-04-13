@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "@material-ui/core/";
 import { ChartsCard } from "components/examples";
 
-const ChartsGrid = ({ classes, ...restProps }) => {
+const RechartsGrid = ({ classes, ...restProps }) => {
   return (
     <Box className={classes.grid}>
       <ChartsCard />
@@ -13,4 +13,4 @@ const ChartsGrid = ({ classes, ...restProps }) => {
   );
 };
 
-export default ChartsGrid;
+export default RechartsGrid;
