@@ -2,7 +2,12 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { NavBar } from "components/navbar/";
 import Welcome from "components/welcome";
-import { WithStylesExample } from "components/examples";
+import {
+  WithStylesExample,
+  ChartsCard,
+  ChartsBox,
+  ChartsGrid,
+} from "components/examples";
 
 const App = ({ isDarkMode, toggleDarkMode, ...restProps }) => {
   return (
@@ -16,6 +21,9 @@ const App = ({ isDarkMode, toggleDarkMode, ...restProps }) => {
             exact
             component={WithStylesExample}
           />
+          <Route path={"/examples/card"} exact component={ChartsCard} />
+          <Route path={"/examples/flexbox"} exact component={ChartsBox} />
+          <Route path={"/examples/css-grid"} exact component={ChartsGrid} />
         </Switch>
       </BrowserRouter>
     </>
