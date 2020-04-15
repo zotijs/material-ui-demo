@@ -8,6 +8,7 @@ import {
   ChartsBox,
   ChartsGrid,
   RechartsGrid,
+  SimpleMap,
 } from "components/examples";
 
 const App = ({ isDarkMode, toggleDarkMode, ...restProps }) => {
@@ -30,6 +31,7 @@ const App = ({ isDarkMode, toggleDarkMode, ...restProps }) => {
             exact
             component={RechartsGrid}
           />
+          <Route path={"/examples/simple-map"} exact component={SimpleMap} />
         </Switch>
       </BrowserRouter>
     </>

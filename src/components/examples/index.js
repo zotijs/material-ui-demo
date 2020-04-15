@@ -6,6 +6,10 @@ import RechartsGrid from "./rechartsGrid";
 import LineChart from "./lineChart";
 import SankeyChart from "./sankeyChart";
 import BarChart from "./barChart";
+import SimpleMap from "./simpleMap";
+import AdvLineChart from "./advLineChart";
+import AdvBarChart from "./advBarChart";
+import AdvBubbleChart from "./advBubbleChart";
 
 export {
   WithStylesExample,
@@ -16,4 +20,8 @@ export {
   LineChart,
   SankeyChart,
   BarChart,
+  SimpleMap,
+  AdvLineChart,
+  AdvBarChart,
+  AdvBubbleChart,
 };

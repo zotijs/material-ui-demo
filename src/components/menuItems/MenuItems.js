@@ -35,6 +35,13 @@ const MenuItems = React.forwardRef(({ handleClose, ...restProps }, ref) => (
     >
       Using Recharts
     </MenuItem>
+    <MenuItem
+      component={RouterLink}
+      to="/examples/simple-map"
+      onClick={handleClose}
+    >
+      Using Mapbox and Leaflet
+    </MenuItem>
     <MenuItem onClick={handleClose}>(TO-DO) Creating a DashBoard</MenuItem>
     <MenuItem onClick={handleClose}>(TO-DO) Recharts in DashBoard</MenuItem>
   </>
