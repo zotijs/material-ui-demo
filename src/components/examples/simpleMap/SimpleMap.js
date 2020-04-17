@@ -1,21 +1,27 @@
 import React from "react";
-import { Map, TileLayer } from "react-leaflet";
-//import { satelite_url } from "components/maps/config";
+import { Map, LayersControl, TileLayer } from "react-leaflet";
+import { mapConfig } from "configs";
+import "./SimpleMap.css";
+
+const { BaseLayer, Overlay } = LayersControl;
 
 const SimpleMap = ({ classes, ...restProps }) => {
-  const position = [37.9838, 23.7275];
-  const zoom = 10;
-  //const url = urls.satelite_url;
-  //const attribution = '';
+  const { satelite_url, light_url, dark_url, position, zoom } = mapConfig;
 
   return (
     <div>
-      <Map
-        style={({ height: "100%" }, { width: "100%" })}
-        center={position}
-        zoom={zoom}
-      >
-        <TileLayer url="https://api.mapbox.com/styles/v1/zotijs/ck8zq0tcj0msz1iqmpor8f343/tiles/256/{z}/{x}/{y}?&access_token=pk.eyJ1Ijoiem90aWpzIiwiYSI6ImNrOHpsdHNudjBzcDMzZnM3OHR6MjNiZW8ifQ.VaU-JxxJRgk9nTxZiuPeuQ" />
+      <Map center={position} zoom={zoom}>
+        <LayersControl position="topright">
+          <BaseLayer checked name="Mapbox Satelite">
+            <TileLayer url={satelite_url} />
+          </BaseLayer>
+          <BaseLayer name="Mapbox Light">
+            <TileLayer url={light_url} />
+          </BaseLayer>
+          <BaseLayer name="Mapbox Dark">
+            <TileLayer url={dark_url} />
+          </BaseLayer>
+        </LayersControl>
       </Map>
     </div>
   );

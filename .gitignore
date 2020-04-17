@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # configs
-/src/configs/mapConfigs.js
+/src/configs/mapConfig.js
