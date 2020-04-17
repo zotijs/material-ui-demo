@@ -23,35 +23,26 @@ const AdvBubbleChart = ({ classes, data, ...restProps }) => {
       }}
     >
       <CartesianGrid />
-      <XAxis
-        type="number"
-        label="Sulphur Content"
-        dataKey="SulphurContent"
-        tick={false}
-      />
+      <XAxis type="number" label="Content" dataKey="Content" tick={false} />
       <YAxis
         type="number"
-        dataKey="ApiGravity"
-        label={{ value: "API Gravity", angle: -90, position: "insideLeft" }}
+        dataKey="Gravity"
+        label={{ value: "Gravity", angle: -90, position: "insideLeft" }}
         tick={false}
       />
-      <ZAxis type="number" dataKey="QuantityKBD" range={[500, 5000]} />
+      <ZAxis type="number" dataKey="Quantity" range={[500, 5000]} />
       <Tooltip cursor={{ strokeDasharray: "3 3" }} />
       <Legend />
-      <Scatter data={data.barsah} name="Basrah" fill="#e5dcca" />
-      <Scatter data={data.barsahLight} name="Basrah Light" fill="#949090" />
-      <Scatter data={data.crudeOil} name="Crude Oil" fill="#00688b" />
-      <Scatter data={data.arabCrudeOil} name="Arab Crude Oil" fill="#533e5a" />
-      <Scatter data={data.kuwaitExport} name="Kuwait Export" fill="#6d1010" />
-      <Scatter
-        data={data.usaCrudeOil}
-        name="United States Crude Oil"
-        fill="#82ccec"
-      />
-      <Scatter data={data.cpcBlend} name="CPC Blend" fill="#6eeacf" />
-      <Scatter data={data.urals} name="Urals (Baltic)" fill="#5ded94" />
-      <Scatter data={data.murban} name="Murban" fill="#f8e675" />
-      <Scatter data={data.omanExport} name="Oman Export" fill="#e4b27a" />
+      <Scatter data={data.one} name="One" fill="#e5dcca" />
+      <Scatter data={data.two} name="Two" fill="#949090" />
+      <Scatter data={data.three} name="Three" fill="#00688b" />
+      <Scatter data={data.four} name="Four" fill="#533e5a" />
+      <Scatter data={data.five} name="Five" fill="#6d1010" />
+      <Scatter data={data.six} name="Six" fill="#82ccec" />
+      <Scatter data={data.seven} name="Seven" fill="#6eeacf" />
+      <Scatter data={data.eight} name="Eight" fill="#5ded94" />
+      <Scatter data={data.nine} name="Nine" fill="#f8e675" />
+      <Scatter data={data.ten} name="Ten" fill="#e4b27a" />
     </ScatterChart>
   );
 };

@@ -1,92 +1,92 @@
 export default {
-  barsah: [
+  one: [
     {
-      GradeName: "Basrah",
-      ApiGravity: 28.42,
-      SulphurContent: 2.9,
-      GradeCategory: 1,
-      QuantityKBD: 2190,
+      Name: "One",
+      Gravity: 28.42,
+      Content: 2.9,
+      Category: 1,
+      Quantity: 2190,
     },
   ],
-  barsahLight: [
+  two: [
     {
-      GradeName: "Basrah Light",
-      ApiGravity: 29.25,
-      SulphurContent: 1.95,
-      GradeCategory: 1,
-      QuantityKBD: 1290,
+      Name: "Two",
+      Gravity: 29.25,
+      Content: 1.95,
+      Category: 1,
+      Quantity: 1290,
     },
   ],
-  crudeOil: [
+  three: [
     {
-      GradeName: "Crude Oil",
-      ApiGravity: 28,
-      SulphurContent: 1,
-      GradeCategory: 1,
-      QuantityKBD: 906,
+      Name: "Three",
+      Gravity: 28,
+      Content: 1,
+      Category: 1,
+      Quantity: 906,
     },
   ],
-  arabCrudeOil: [
+  four: [
     {
-      GradeName: "Arab Crude Oil",
-      ApiGravity: 34.13,
-      SulphurContent: 1.5084,
-      GradeCategory: 2,
-      QuantityKBD: 6394,
+      Name: "Four",
+      Gravity: 34.13,
+      Content: 1.5084,
+      Category: 2,
+      Quantity: 6394,
     },
   ],
-  kuwaitExport: [
+  five: [
     {
-      GradeName: "Kuwait Export",
-      ApiGravity: 31.45,
-      SulphurContent: 2.55,
-      GradeCategory: 2,
-      QuantityKBD: 1975,
+      Name: "Five",
+      Gravity: 31.45,
+      Content: 2.55,
+      Category: 2,
+      Quantity: 1975,
     },
   ],
-  usaCrudeOil: [
+  six: [
     {
-      GradeName: "United States Crude Oil",
-      ApiGravity: 39.23,
-      SulphurContent: 0.62,
-      GradeCategory: 2,
-      QuantityKBD: 1659,
+      Name: "Six",
+      Gravity: 39.23,
+      Content: 0.62,
+      Category: 2,
+      Quantity: 1659,
     },
   ],
-  cpcBlend: [
+  seven: [
     {
-      GradeName: "CPC Blend",
-      ApiGravity: 45.77,
-      SulphurContent: 0.59,
-      GradeCategory: 2,
-      QuantityKBD: 1414,
+      Name: "Seven",
+      Gravity: 45.77,
+      Content: 0.59,
+      Category: 2,
+      Quantity: 1414,
     },
   ],
-  urals: [
+  eight: [
     {
-      GradeName: "Urals (Baltic)",
-      ApiGravity: 31.5,
-      SulphurContent: 1.3,
-      GradeCategory: 2,
-      QuantityKBD: 1413,
+      Name: "Eight",
+      Gravity: 31.5,
+      Content: 1.3,
+      Category: 2,
+      Quantity: 1413,
     },
   ],
-  murban: [
+  nine: [
     {
-      GradeName: "Murban",
-      ApiGravity: 40.5,
-      SulphurContent: 0.73,
-      GradeCategory: 2,
-      QuantityKBD: 1273,
+      Name: "Nine",
+      Gravity: 40.5,
+      Content: 0.73,
+      Category: 2,
+      Quantity: 1273,
     },
   ],
-  omanExport: [
+  ten: [
     {
-      GradeName: "Oman Export",
-      ApiGravity: 36.3,
-      SulphurContent: 1.06,
-      GradeCategory: 2,
-      QuantityKBD: 860,
+      Name: "Ten",
+      Gravity: 36.3,
+      Content: 1.06,
+      Category: 2,
+      Quantity: 860,
     },
   ],
 };
