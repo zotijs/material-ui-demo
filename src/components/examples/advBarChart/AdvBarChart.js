@@ -24,16 +24,13 @@ const AdvBarChart = ({ classes, data, ...restProps }) => {
       }}
     >
       <CartesianGrid strokeDasharray="3 3" />
-      <XAxis
-        dataKey="EstimatedCompletionQuarter"
-        allowDuplicatedCategory={false}
-      />
+      <XAxis dataKey="Quarter" allowDuplicatedCategory={false} />
       <YAxis />
       <Tooltip />
       <Legend />
       <ReferenceLine y={0} stroke="#000" />
       <Bar dataKey="Area" stackId="quarters" fill="#8884d8" />
-      <Bar dataKey="NetChange" stackId="quarters" fill="#82ca9d" />
+      <Bar dataKey="Value" stackId="quarters" fill="#82ca9d" />
     </BarChart>
   );
 };

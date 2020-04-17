@@ -18,7 +18,6 @@ const ChartsGrid = ({ classes, ...restProps }) => {
       <AdvLineChart />
       <AdvBarChart />
       <AdvBubbleChart />
-      <p>End of Charts</p>
     </Box>
   );
 };
