@@ -22,5 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# mapbox keys
-/src/components/maps/config
+# configs
+/src/configs/mapConfigs.js
