@@ -10,6 +10,8 @@ import SimpleMap from "./simpleMap";
 import AdvLineChart from "./advLineChart";
 import AdvBarChart from "./advBarChart";
 import AdvBubbleChart from "./advBubbleChart";
+import DyBox from "./dyBox";
+import DyLineChart from "./dyLineChart";
 
 export {
   WithStylesExample,
@@ -24,4 +26,6 @@ export {
   AdvLineChart,
   AdvBarChart,
   AdvBubbleChart,
+  DyBox,
+  DyLineChart,
 };
