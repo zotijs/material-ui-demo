@@ -12,6 +12,7 @@ import AdvBarChart from "./advBarChart";
 import AdvBubbleChart from "./advBubbleChart";
 import DyBox from "./dyBox";
 import DyLineChart from "./dyLineChart";
+import ResponsiveRechart from "./responsiveRechart";
 
 export {
   WithStylesExample,
@@ -28,4 +29,5 @@ export {
   AdvBubbleChart,
   DyBox,
   DyLineChart,
+  ResponsiveRechart,
 };
