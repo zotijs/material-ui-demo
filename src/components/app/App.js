@@ -10,6 +10,7 @@ import {
   RechartsGrid,
   SimpleMap,
   DyBox,
+  ResponsiveRechart,
 } from "components/examples";
 
 const App = ({ isDarkMode, toggleDarkMode, ...restProps }) => {
@@ -31,6 +32,11 @@ const App = ({ isDarkMode, toggleDarkMode, ...restProps }) => {
             path={"/examples/recharts-grid"}
             exact
             component={RechartsGrid}
+          />
+          <Route
+            path={"/examples/recharts-responsive"}
+            exact
+            component={ResponsiveRechart}
           />
           <Route path={"/examples/simple-map"} exact component={SimpleMap} />
           <Route path={"/examples/dygraphs"} exact component={DyBox} />

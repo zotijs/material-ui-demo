@@ -37,6 +37,13 @@ const MenuItems = React.forwardRef(({ handleClose, ...restProps }, ref) => (
     </MenuItem>
     <MenuItem
       component={RouterLink}
+      to="/examples/recharts-responsive"
+      onClick={handleClose}
+    >
+      Responsive Recharts
+    </MenuItem>
+    <MenuItem
+      component={RouterLink}
       to="/examples/simple-map"
       onClick={handleClose}
     >
