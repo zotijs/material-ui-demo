@@ -13,6 +13,9 @@ import AdvBubbleChart from "./advBubbleChart";
 import DyBox from "./dyBox";
 import DyLineChart from "./dyLineChart";
 import ResponsiveRechart from "./responsiveRechart";
+import NivoBox from "./nivoBox";
+import NivoBubbleChart from "./nivoBubble";
+import NivoBarChart from "./nivoBar";
 
 export {
   WithStylesExample,
@@ -30,4 +33,7 @@ export {
   DyBox,
   DyLineChart,
   ResponsiveRechart,
+  NivoBox,
+  NivoBubbleChart,
+  NivoBarChart,
 };

@@ -11,6 +11,7 @@ import {
   SimpleMap,
   DyBox,
   ResponsiveRechart,
+  NivoBox,
 } from "components/examples";
 
 const App = ({ isDarkMode, toggleDarkMode, ...restProps }) => {
@@ -38,8 +39,9 @@ const App = ({ isDarkMode, toggleDarkMode, ...restProps }) => {
             exact
             component={ResponsiveRechart}
           />
-          <Route path={"/examples/simple-map"} exact component={SimpleMap} />
           <Route path={"/examples/dygraphs"} exact component={DyBox} />
+          <Route path={"/examples/nivo"} exact component={NivoBox} />
+          <Route path={"/examples/simple-map"} exact component={SimpleMap} />
         </Switch>
       </BrowserRouter>
     </>
