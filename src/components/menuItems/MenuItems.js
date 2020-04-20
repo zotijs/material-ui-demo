@@ -44,20 +44,23 @@ const MenuItems = React.forwardRef(({ handleClose, ...restProps }, ref) => (
     </MenuItem>
     <MenuItem
       component={RouterLink}
-      to="/examples/simple-map"
-      onClick={handleClose}
-    >
-      Using Mapbox and Leaflet
-    </MenuItem>
-    <MenuItem
-      component={RouterLink}
       to="/examples/dygraphs"
       onClick={handleClose}
     >
       Using Dygraphs
     </MenuItem>
+    <MenuItem component={RouterLink} to="/examples/nivo" onClick={handleClose}>
+      Using Nivo
+    </MenuItem>
     <MenuItem onClick={handleClose}>(TO-DO) Creating a DashBoard</MenuItem>
     <MenuItem onClick={handleClose}>(TO-DO) Recharts in DashBoard</MenuItem>
+    <MenuItem
+      component={RouterLink}
+      to="/examples/simple-map"
+      onClick={handleClose}
+    >
+      Using Mapbox and Leaflet
+    </MenuItem>
   </>
 ));
 

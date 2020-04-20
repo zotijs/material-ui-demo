@@ -1,6 +1,6 @@
 export default {
   container: {
-    height: 400,
+    hight: 400,
     width: "99%",
   },
 };
