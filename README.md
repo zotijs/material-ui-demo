@@ -25,7 +25,7 @@ Playing around with Material-UI, Recharts, Nivo, Dygraphs, Leaflet and Mapbox
 > - Based in d3
 > - Hard to compose different charts together
 
-# Dygraphs evaluation:
+## Dygraphs evaluation:
 
 > - Lots of options
 > - **Dygraph** constructor by default produces line charts
