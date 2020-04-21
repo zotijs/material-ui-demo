@@ -24,13 +24,26 @@ const AdvBarChart = ({ classes, data, ...restProps }) => {
       }}
     >
       <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="Quarter" allowDuplicatedCategory={false} />
+      <XAxis dataKey="year" />
       <YAxis />
       <Tooltip />
       <Legend />
       <ReferenceLine y={0} stroke="#000" />
-      <Bar dataKey="Area" stackId="quarters" fill="#8884d8" />
-      <Bar dataKey="Value" stackId="quarters" fill="#82ca9d" />
+      <Bar dataKey="africa" name="Africa" stackId="years" fill="#e5dcca" />
+      <Bar dataKey="asia" name="Asia" stackId="years" fill="#949090" />
+      <Bar
+        dataKey="midEast"
+        name="Middle East"
+        stackId="years"
+        fill="#00688b"
+      />
+      <Bar
+        dataKey="southAmerica"
+        name="South America"
+        stackId="years"
+        fill="#533e5a"
+      />
+      <Bar dataKey="usa" name="USA" stackId="years" fill="#6d1010" />
     </BarChart>
   );
 };

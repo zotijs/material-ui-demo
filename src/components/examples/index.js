@@ -12,6 +12,7 @@ import AdvBarChart from "./advBarChart";
 import AdvBubbleChart from "./advBubbleChart";
 import DyBox from "./dyBox";
 import DyLineChart from "./dyLineChart";
+import DyStackedBarChart from "./dyStackedBarChart";
 import ResponsiveRechart from "./responsiveRechart";
 import NivoBox from "./nivoBox";
 import NivoBubbleChart from "./nivoBubble";
@@ -32,6 +33,7 @@ export {
   AdvBubbleChart,
   DyBox,
   DyLineChart,
+  DyStackedBarChart,
   ResponsiveRechart,
   NivoBox,
   NivoBubbleChart,
