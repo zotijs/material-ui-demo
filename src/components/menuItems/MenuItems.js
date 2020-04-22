@@ -14,6 +14,16 @@ const MenuItems = React.forwardRef(({ handleClose, ...restProps }, ref) => (
     <MenuItem component={RouterLink} to="/examples/card" onClick={handleClose}>
       Creating a Card
     </MenuItem>
+    <MenuItem component={RouterLink} to="/examples/table" onClick={handleClose}>
+      Creating a Table
+    </MenuItem>
+    <MenuItem
+      component={RouterLink}
+      to="/examples/autocomplete"
+      onClick={handleClose}
+    >
+      Creating an Autocomplete Combo
+    </MenuItem>
     <MenuItem
       component={RouterLink}
       to="/examples/flexbox"
@@ -44,6 +54,13 @@ const MenuItems = React.forwardRef(({ handleClose, ...restProps }, ref) => (
     </MenuItem>
     <MenuItem
       component={RouterLink}
+      to="/examples/dashboard"
+      onClick={handleClose}
+    >
+      Recharts in DashBoard
+    </MenuItem>
+    <MenuItem
+      component={RouterLink}
       to="/examples/dygraphs"
       onClick={handleClose}
     >
@@ -52,8 +69,6 @@ const MenuItems = React.forwardRef(({ handleClose, ...restProps }, ref) => (
     <MenuItem component={RouterLink} to="/examples/nivo" onClick={handleClose}>
       Using Nivo
     </MenuItem>
-    <MenuItem onClick={handleClose}>(TO-DO) Creating a DashBoard</MenuItem>
-    <MenuItem onClick={handleClose}>(TO-DO) Recharts in DashBoard</MenuItem>
     <MenuItem
       component={RouterLink}
       to="/examples/simple-map"

@@ -17,6 +17,10 @@ import ResponsiveRechart from "./responsiveRechart";
 import NivoBox from "./nivoBox";
 import NivoBubbleChart from "./nivoBubble";
 import NivoBarChart from "./nivoBar";
+import TableComponent from "./table/TableComponent";
+import CountriesTable from "./countriesTable";
+import CountriesAutocomplete from "./countriesAutocomplete";
+import Dashboard from "./dashboard";
 
 export {
   WithStylesExample,
@@ -38,4 +42,8 @@ export {
   NivoBox,
   NivoBubbleChart,
   NivoBarChart,
+  TableComponent,
+  CountriesTable,
+  CountriesAutocomplete,
+  Dashboard,
 };

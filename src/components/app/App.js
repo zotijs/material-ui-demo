@@ -12,6 +12,9 @@ import {
   DyBox,
   ResponsiveRechart,
   NivoBox,
+  CountriesTable,
+  CountriesAutocomplete,
+  Dashboard,
 } from "components/examples";
 
 const App = ({ isDarkMode, toggleDarkMode, ...restProps }) => {
@@ -27,6 +30,12 @@ const App = ({ isDarkMode, toggleDarkMode, ...restProps }) => {
             component={WithStylesExample}
           />
           <Route path={"/examples/card"} exact component={ChartsCard} />
+          <Route path={"/examples/table"} exact component={CountriesTable} />
+          <Route
+            path={"/examples/autocomplete"}
+            exact
+            component={CountriesAutocomplete}
+          />
           <Route path={"/examples/flexbox"} exact component={ChartsBox} />
           <Route path={"/examples/css-grid"} exact component={ChartsGrid} />
           <Route
@@ -39,6 +48,7 @@ const App = ({ isDarkMode, toggleDarkMode, ...restProps }) => {
             exact
             component={ResponsiveRechart}
           />
+          <Route path={"/examples/dashboard"} exact component={Dashboard} />
           <Route path={"/examples/dygraphs"} exact component={DyBox} />
           <Route path={"/examples/nivo"} exact component={NivoBox} />
           <Route path={"/examples/simple-map"} exact component={SimpleMap} />
