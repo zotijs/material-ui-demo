@@ -25,7 +25,7 @@ const AdvBarChart = ({ classes, data, ...restProps }) => {
     >
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="year" />
-      <YAxis />
+      <YAxis domain={[-200, 2000]} />
       <Tooltip />
       <Legend />
       <ReferenceLine y={0} stroke="#000" />

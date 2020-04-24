@@ -596,6 +596,17 @@ export default [
   {
     "2019": 541,
     "2020": null,
+    "": 54,
+    Min: 460,
+    Max: 987,
+    Average: 678,
+    helperlastyear: null,
+    ReferenceDate: "2012-09-29",
+    month: "SEP",
+  },
+  {
+    "2019": 541,
+    "2020": null,
     "": 55,
     Min: 239,
     Max: 1278,
